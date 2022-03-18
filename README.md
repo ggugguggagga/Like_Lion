@@ -4,7 +4,7 @@
 |Name|Description|
 |:---:|:---:|
 |![HTML logo](/image/HTML.png)|HTML은 웹 브라우저 창에 웹 문서의 내용을 보여주는 데 필요한 것 이다. HTML은 웹 브라우저의 여러 내용 중에서 제목과 본문, 이미지, 표와 같은 것을 정하는데에 사용한다.|
-|![CSS logo](/image/CSS.png)|CSS는 HTML로 만든 내용을 사용자가 알아보기 쉽게 꾸미거나 사용하기 편리하도록 배치할 때 사용한다.또한 반응형 웹 디자인을 만들려면 CSS를 공부해야한다.|
+|![CSS logo](/image/CSS.png)|CSS는 HTML로 만든 내용을 사용자가 알아보기 쉽게 꾸미거나 사용하기 편리하도록 배치할 때 사용한다.또한 반응형 웹 디자인을 만들려면 CSS를 알아야한다.|
 |![JS logo](/image/JS.png)|동적인 효과를 사용하려면 자바스크립트가 필요하다. 그리고 규모가 큰 웹 사이트 개발에서는 리액트(React)나, 뷰(Vue)같은 자바스크립트 프레임워크를 사용한다.|
 
 ***
@@ -59,6 +59,7 @@
 
 ***
 ### HTTP & HTTPS
+<br>
 
 ![Rendering_Engine](/image/HTTP.png)
 
