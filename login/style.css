@@ -61,13 +61,18 @@ input[type = text]{
 
 
 input[type = checkbox]{
-    width: 20px;
-	height: 20px;
-    margin-left: -2px;
-    background-color: #ad1c1c;
+    display: none;
+}
+input[type = checkbox] + label{
+    padding-left: 40px;
+    display: block;
+    background-repeat: no-repeat;
+    background-image: url('/image/checkOff.png');
+}
+input[type = checkbox]:checked + label {
+    background-image: url('/image/checkOn.png');
 }
 
 h1 {
-    
     color: rgb(255, 255, 255);
 }
