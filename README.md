@@ -130,3 +130,15 @@
 
 ***
 ### 쉐도우 돔이란?
+
+- Shadow DOM은 DOM안의 DOM으로 생각하기 쉬우나 원래의 DOM 트리에서 완전히 분리된 고유의 요소와 스타일을 가진 DOM 트리이다.
+- 사용하는 이유는 Shadow DOM은 글로벌 범위에 포함되지 않는다. 이 점을 이용하여 Web Components와 함께 사용하면 HTML 모듈화가 가능하다. 즉, 따로 독립되어 지정되어 있으므로 태그를 이용한 CSS 작업을 하여도 ShaadowRoot 안에 있는 요소들은 영향을 받지 않는다. 
+
+![shadowDom](/image/shadowDom.png)
+
+아래의 예시를 보면 Shadow DOM 내의 CSS 스타일은 Shadow Root로 범위가 지정이 되어, 스타일이 캡슐화가 된다.
+
+![shadowDomEX](/image/shadowDomEX.png)
+
+- 페이지 내에 다른 h3들이 있지만 단 하나맘ㄴ이 h3 셀렉터와 매칭되어 붉은 색상으로 적용되는 것은 ShadowRoot내의 것이다. 
+- 다른 h3를 대상으로 하는 스타일 규칙들은 Shadow Boundary를 넘지 못하기 때문에 제 컨텐츠를 침범하지 못한다.
